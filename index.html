@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link type="image/x-icon" rel="shortcut icon" href="images/icons/favicon.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <title>PlotOps</title>
+</head>
+
+
+
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg" id="top-menu">
+            <div class="container-fluid">
+                <a class="navbar-brand _first" href="#">
+                    <svg сlass="icon">
+                        <use xlink:href="sprite.svg #logo"></use>
+                    </svg>
+                </a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MANAGED SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SOLUTIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SECURITY & COMPLIANCE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACTS</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav px-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SUPPORT</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person bg"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+
+        <nav class="navbar navbar-expand-lg" id="bottom_menu">
+            <div class="container">
+                <a class="navbar-brand _second" href="/">
+                    <svg сlass="icon">
+                        <use xlink:href="sprite.svg#logo2"></use>
+                    </svg>
+                </a>
+                <button class="navbar-toggler custom-toggler btn-outline-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="overview.html">Overview</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Features
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Integrations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Documentation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav d-flex">
+                        <div class="nav-item d-flex align-items-lg-center">
+                            <li><a class="nav-link mt-md-auto" href="#" tabindex="-1" aria-disabled="true">PRICING</a>
+                            </li>
+                            <button class="btn btn-outline-light ms-4" type="submit">REQUEST A DEMO</button>
+                        </div>
+                </div>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="discovery">
+        <div class="container">
+            <div class="row justify-content-md-center align-items-center">
+                <div class="col-md-5">
+                    <h1 class="discovery-header">Discovery and Asset Management</h1>
+                    <p class="descr">PlatOps Core is great and powerful configuration management database. Automatic,
+                        agent-based/agentless discovery of infrastructure and applications. Provides the data you need
+                        to manage, automate, transform, and optimize infrastructure
+                        in data centers and clouds.</p>
+                    <button type="button" class="btn ">Try now</button>
+                    <button type="button" class="btn">Get prices <svg>
+                            <use xlink:href="sprite.svg #miniarrow"></use>
+                        </svg></button>
+                </div>
+                <div class="col-md-7 align-items-center">
+                    <div class="video-placeholder">
+                        <iframe width="560" height="315" allow="fullscreen; gyroscope; autoplay" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-center align-items-end">
+                        <button type="button" class="btn btn-light-outline">User interface</button>
+                        <button type="button" class="btn  col-md-6 ">Command-line interface</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center d-flex justify-content-center">
+                <div class="col-md-12 d-flex justify-content-center align-items-center pdf">
+                    <svg сlass="icon1">
+                        <use xlink:href="sprite.svg#pdf"></use>
+                    </svg>
+                    <a class="datasheet ms-2">Download Datasheet</a>
+                </div>
+                <hr class="hr">
+            </div>
+        </div>
+    </section>
+
+    <section class="environments">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h2 class="environments_header">Struct <span> your environments</span> like you want</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="video-placeholder">
+                        <iframe width="560" height="315" allow="fullscreen; gyroscope; autoplay" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="video-placeholder">
+                        <iframe width="560" height="315" allow="fullscreen; gyroscope; autoplay" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center align-items-md-center true">
+                    <svg>
+                        <use xlink:href="sprite.svg#failed"></use>
+                    </svg>
+                    <svg>
+                        <use xlink:href="sprite.svg #arrow12"></use>
+                    </svg>
+                    <svg>
+                        <use xlink:href="sprite.svg#success"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column align-items-md-center mt-5 true">
+                    <div class="dialog d-flex flex-column align-items-md-center dialog-left">
+                        <span class="top-bot"></span>
+                        <span class="top-bot top-bot-border"></span>
+                        <h3 class="card-title text-center">Advanced auto-discovery system</h3>
+                        <ul class="card-list list-left pt-3">
+                            <li><span>✗</span> Multi-cloud environment without central contact point </li>
+                            <li><span>✗</span> On-premise devices without structure models </li>
+                            <li><span>✗</span> Environment without any visual vision </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-light-outline btn-left mt-3">FIX IT</button>
+                </div>
+                <div class="col-md-6 d-flex flex-column align-items-md-center mt-5 true">
+                    <div class="dialog d-flex flex-column align-items-md-center dialog-right">
+                        <span class="top-bot"></span>
+                        <span class="top-bot top-bot-border"></span>
+                        <h3 class="card-title text-center">Multi-platform structured environment</h3>
+                        <ul class="card-list list-right  pt-3">
+                            <li><span>✓</span> Multi-cloud environment with single point of struct</li>
+                            <li><span>✓</span> On-premise devices managed from one panel </li>
+                            <li><span>✓</span> Full visibility of your environment </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-light-outline btn-right mt-3">GET IT</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="integrations">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-6">
+                    <div class="container ">
+                        <div class="row g-2 pt-3">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                                <svg class="icon">
+                                    <use xlink:href="sprite.svg #amazon"></use>
+                                </svg>
+
+                            </div>
+                            <div class="col-md-4 d-flex  justify-content-center align-items-center">
+                                <svg class="icon">
+                                    <use xlink:href="sprite.svg #google"></use>
+                                </svg>
+
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                <svg class="icon">
+                                    <use xlink:href="sprite.svg #microsoft"></use>
+                                </svg>
+
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                <svg class="icon">
+                                    <use xlink:href="sprite.svg #grafana"></use>
+                                </svg>
+
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                <svg class="icon">
+                                    <use xlink:href="sprite.svg #influx"></use>
+                                </svg>
+
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                <svg class="icon">
+                                    <use xlink:href="sprite.svg #icinga"></use>
+                                </svg>
+
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                <svg class="icon">
+                                    <use xlink:href="sprite.svg #kubernets"></use>
+                                </svg>
+
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                <svg class="icon">
+                                    <use xlink:href="sprite.svg #elastic"></use>
+                                </svg>
+
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                <svg class="icon">
+                                    <use xlink:href="sprite.svg #prometheus"></use>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex flex-column flex-lg-column-reverse justify-content-center align-items-md-center">
+                    <h2 class="integrations-title">Current Integrations</h2>
+                    <span class="integrations-descr">Currently supported modules and integrations</span>
+                </div>
+                <!-- second row  -->
+                <div class="container mt-3 pt-5 second-row">
+                    <div class="row mt-5 pt-5">
+                        <div class="col-md-6 d-flex flex-column justify-content-center align-items-md-start">
+                            <h2 class="integrations-title">Integrations in Active Development</h2>
+                            <span class="integrations-descr">Seamlessly integrate any trusted identity provider.</span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="container">
+                                <div class="row g-2">
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                        <svg class="icon">
+                                            <use xlink:href="sprite.svg #1"></use>
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                        <svg class="icon">
+                                            <use xlink:href="sprite.svg #2"></use>
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                        <svg class="icon">
+                                            <use xlink:href="sprite.svg #3"></use>
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                        <svg class="icon">
+                                            <use xlink:href="sprite.svg #4"></use>
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                        <svg class="icon">
+                                            <use xlink:href="sprite.svg #5"></use>
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                        <svg class="icon">
+                                            <use xlink:href="sprite.svg #6"></use>
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                        <svg class="icon">
+                                            <use xlink:href="sprite.svg #7"></use>
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                        <svg class="icon">
+                                            <use xlink:href="sprite.svg #8"></use>
+                                        </svg>
+
+                                    </div>
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+
+                                        <svg class="icon">
+                                            <use xlink:href="sprite.svg #9"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- container -->
+    </section>
+    <section class="code">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex flex-column align-items-center px-5">
+                    <h2 class="code__title">More than<span class="px-2">CMDB</span></h2>
+                    <div class="title__descr mt-4">PlatOps Core project is much more than simple CMDB which can be
+                        installed on on-premise environment. Integrated features will allows you to get benefits which
+                        will be useful on administration of your environment platforms.</div>
+                </div>
+            </div>
+            <div class="row pt-5 mt-5 d-flex justify-content-md-center">
+                <div class="col-md-5 d-flex flex-column align-items-center justify-content-center">
+                    <div class="card mt-4">
+                        <h3>
+                            Advanced Auto-Discovery System
+                        </h3>
+                    </div>
+                    <div class="card mt-4">
+                        <h3>
+                            Advanced Auto-Discovery System
+                        </h3>
+                    </div>
+                    <div class="card mt-4">
+                        <h3>
+                            Advanced Auto-Discovery System
+                        </h3>
+                    </div>
+                    <div class="card mt-4">
+                        <h3>
+                            Advanced Auto-Discovery System
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-7 d-flex">
+                    <div class="code__sheet mt-4">
+                        <svg>
+                            <use xlink:href="sprite.svg #copy"></use>
+                        </svg>
+                        <p class="code_text">
+                            {
+                            "version": 4, "terraform_version": "0.14.0",
+                            "serial": 26,
+                            "lineage": "3c255742-debd-2c33-ff5f-53a5181f36b2",
+                            "outputs": {},
+                            "resources": []
+                            }
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-label mt-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 d-flex justify-content-center">
+                    <h2 class="footer__title">Ready to get started?</h2>
+                </div>
+                <div class="col-md-7 d-flex flex-column justify-content-center">
+                    <div class="footer__descr">
+                        <p>Start by following a tutorial to deploy PlatOps Core app in your environment or learn about
+                            how
+                            the project works by exploring the documentation.</p>
+                    </div>
+                    <div class="col-md-12  d-flex mt-3">
+                        <button class="btn btn-light text-uppercase fw-bolder">Get started
+                            <svg>
+                                <use xlink:href="sprite.svg #miniarrow"></use>
+                            </svg>
+                        </button>
+                        <button class="btn btn-outline-light text-uppercase fw-bolder mx-4">explore
+                            documentation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer__nav">
+        <nav class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="container">
+                    <div class="row d-flex justify-content-md-between">
+                        <div class="col-md-6 d-flex justify-content-end">
+                            <div class="navbar-nav mx-4">
+                                <a class="nav-link mx-3" href="#">Integrations</a>
+                                <a class="nav-link mx-3" href="#">Features</a>
+                                <a class="nav-link mx-3" href="#">Documentation</a>
+                                <a class="nav-link mx-3" href="#">Support</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <button class="btn btn-light text-uppercase">Request a demo<svg>
+                                    <use xlink:href="sprite.svg #miniarrow"></use>
+                                </svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <footer class="footer pt-5">
+        <div class="container-md">
+            <div class="row">
+                <div class="col-lg-6 d-flex justify-content-md-center justify-content-center">
+                    <a class="navbar-brand main" href="#">
+                        <svg сlass="icon">
+                            <use xlink:href="sprite.svg#logo"></use>
+                        </svg>
+                    </a>
+                    <ul class="custom-list d-flex flex-column justify-content-center align-items-start">
+                        <li>CMDB</li>
+                        <li><span>Platops Core</span></li>
+                        <li><svg сlass="icon">
+                                <use xlink:href="sprite.svg #core"></use>
+                            </svg></li>
+                    </ul>
+                    <ul class="custom-list d-flex flex-column justify-content-center align-items-start">
+                        <li>Email Auth</li>
+                        <li><span>PlatOps DMARC</span></li>
+                        <li><svg сlass="icon">
+                                <use xlink:href="sprite.svg #core"></use>
+                            </svg></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 d-flex justify-content-center align-items-lg-center pt-md-4">
+                    <div class="follow pt-2">
+                        <p>Follow Us</p>
+                    </div>
+                    <ul class="follow__icons d-flex justify-content-end align-items-center mx-4">
+                        <li>
+                            <svg сlass="icon">
+                                <use xlink:href="sprite.svg #fc"></use>
+                            </svg>
+                        </li>
+                        <li><a><svg сlass="icon">
+                                    <use xlink:href="sprite.svg #link"></use>
+                                </svg></a></li>
+                        <li><a><svg сlass="icon">
+                                    <use xlink:href="sprite.svg #twitter"></use>
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr />
+            <div class="container-lg">
+            <div class="row mt-5 middle">
+                <div class="col-lg-8 d-flex justify-content-lg-between justify-content-center">
+                    <ul class="custom-list d-flex flex-column justify-content-start align-items-start">
+                        <li>
+                            <h4>Services</h4>
+                        </li>
+                        <li>Managed Security</li>
+                        <li>Infrastructure Monitoring</li>
+                        <li> Cloud Transformation</li>
+                    </ul>
+
+
+                    <ul class="custom-list d-flex flex-column justify-content-start align-items-start">
+                        <li>
+                            <h4>Solutions</h4>
+                        </li>
+                        <li>PlatOps CORE</li>
+                        <li>PlatOps DMARC</li>
+                        <li> PlatOps Traps</li>
+                    </ul>
+
+                    <ul class="custom-list d-flex flex-column justify-content-start align-items-start">
+                        <li>
+                            <h4>Security</h4>
+                        </li>
+                        <li>Managed Security</li>
+                        <li>Email Security</li>
+                        <li>Cloud Native Security</li>
+                        <li> Trust Security</li>
+                    </ul>
+
+                    <ul class="custom-list d-flex flex-column justify-content-start align-items-start">
+                        <li>
+                            <h4>Company</h4>
+                        </li>
+                        <li>About Us</li>
+                        <li>Media Kit</li>
+                        <li>Partners</li>
+                        <li>Blog</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+
+
+                <div class="col-lg-4 ps-5">
+                    <div
+                        class="row g-1 text-md-center text-center text-lg-start justify-content-lg-start justify-content-center">
+                        <div class="form__header ">
+                            <h4>Subscribe To Our Newsletter</h4>
+                        </div>
+                        <div class="form__descr">
+                            <p>The latest news, articles, and resources, sent to your inbox monthly.</p>
+                        </div>
+                        <div class="col-auto">
+                            <label for="inputEmail" class="visually-hidden">Password</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="your@email.com">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
+                        </div>
+                        <div class="d-flex justify-content-center justify-content-lg-start form-check mt-md-2">
+                            <input type="checkbox" class="form-check-input me-md-1" id="exampleCheck1">
+                            <label class="form-check-label align-center pt-1" for="exampleCheck1">I agree to
+                                PlatOps’s <a class="text-decoration-underline" href="#">Privacy policy</a></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="container-fluid policy">
+            <div class="row">
+                <div class="col-lg-4 d-flex justify-content-center align-items-center pt-3">
+                    <p>(c) 2021 PlatOps Security, LLC. Washington, D.C.</p>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                    <div class="footer__icon-1 d-flex align-items-center justify-content-center"><svg width="14"
+                            height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.4944 6.04117C13.2173 5.74903 12.7554 5.73616 12.4628 6.01393L7.80421 10.432L5.5822 8.15058C5.30077 7.86185 4.83935 7.85552 4.55036 8.13698C4.26162 8.41816 4.25554 8.88008 4.53672 9.16881L7.26105 11.9659C7.40382 12.1126 7.59356 12.1865 7.78379 12.1865C7.96428 12.1865 8.14477 12.1198 8.2861 11.9863L13.4672 7.0728C13.7595 6.79549 13.7719 6.33357 13.4944 6.04117Z"
+                                fill="#08BC3A" />
+                            <path
+                                d="M9 0C4.03734 0 0 4.03734 0 9C0 13.9627 4.03734 18 9 18C13.9627 18 18 13.9627 18 9C18 4.03734 13.9627 0 9 0ZM9 16.5406C4.84225 16.5406 1.45944 13.158 1.45944 9C1.45944 4.84225 4.84221 1.45944 9 1.45944C13.158 1.45944 16.5406 4.84221 16.5406 9C16.5406 13.158 13.158 16.5406 9 16.5406Z"
+                                fill="#08BC3A" />
+                        </svg>
+                    </div>
+                    <div class="system px-1"> System Status </div>
+                    <div class="cookie ps-4"><a href="#">Cookie Manager</a></div>
+
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center align-items-center pt-3">
+                    <ul class="terms d-flex justify-content-center align-items-center">
+                        <li class="ps-0"><a href="#">Terms and Conditions</a></li>
+                        <li class="ps-4"><a href="#">Privacy</a></li>
+                        <li class="ps-4"><a href="#">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
